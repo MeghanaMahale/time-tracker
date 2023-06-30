@@ -93,12 +93,12 @@
         <repository>
             <id> server </id>
             <name> Releases </name>
-            <url>http://demo.icebreaker.minutuscloud.com/nexus/#admin/repository/repositories:minutus-release</url>
+            <url>http://localhost:8080/repository/minutus-release/</url>
         </repository>
         <snapshotRepository>
             <id> server </id>
             <name> Snapshot </name>
-            <url>http://demo.icebreaker.minutuscloud.com/nexus/#admin/repository/repositories:minutus-snapshot</url>
+            <url>http://localhost:8080/repository/minutus-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
